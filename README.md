@@ -13,14 +13,6 @@ This dashboard helps track **machine learning models in production** by analyzin
 
 ---
 
-## **⚙ Tech Stack**
-- **Frontend**: Streamlit  
-- **ML Monitoring**: Evidently AI  
-- **Libraries**: Pandas, NumPy, Matplotlib  
-- **Deployment**: Local or cloud-based  
-
----
-
 ## **📂 Project Structure**
 ```plaintext
 ml-monitoring-dashboard/
@@ -31,14 +23,17 @@ ml-monitoring-dashboard/
 │── projects/                 # Additional model monitoring projects
 │── .venv/                    # Virtual environment (not pushed to Git)
 │── README.md                 # Project documentation
+```
 
-🚀 Setup & Installation
+🚀 Setup & Installation**
 1️⃣ Clone the Repository
 bash
 Copy
 Edit
 git clone https://github.com/aditiBansal-7/ml-monitoring-dashboard.git
 cd ml-monitoring-dashboard
+```
+```
 2️⃣ Set Up a Virtual Environment
 bash
 Copy
@@ -47,20 +42,24 @@ python -m venv .venv
 source .venv/Scripts/activate  # On Windows
 # OR
 source .venv/bin/activate  # On macOS/Linux
+```
+```
 3️⃣ Install Dependencies
 bash
 Copy
 Edit
 pip install -r streamlit-app/requirements.txt
+```
+```
 4️⃣ Run the Dashboard
 bash
 Copy
 Edit
 cd streamlit-app
 streamlit run app.py
-🔗 Open in browser: http://localhost:8501
 
+```
+```
 📊 Sample Dashboard Screenshot
-![Screenshot 2025-03-15 160236](https://github.com/user-attachments/assets/9800b52c-06de-4664-a195-c07b6d9be490)
-
+![Screenshot 2025-03-15 160236](https://github.com/user-attachments/assets/b0c6a0e2-a189-4541-9ad5-57128a76351e)
 
