@@ -1,99 +1,68 @@
-# ML Monitoring Dashboard with Evidently and Streamlit
+# **📊 ML Monitoring Dashboard**
 
-## 📊 Overview
-This repository provides an example of how to build a **Streamlit dashboard** for monitoring **data and model metrics** using [Evidently AI](https://evidentlyai.com/).
-
----
-
-## 📌 Prerequisites
-- **Python ≥ 3.9.12** (recommended)
-- **Evidently AI** and **Streamlit** installed
-- **Jupyter Notebook** (optional for report generation)
+An interactive dashboard for monitoring **ML model performance, data drift, and key metrics** using **Streamlit and Evidently AI**.
 
 ---
 
-## 👩‍💻 Installation
+## **📌 Project Overview**
+This dashboard helps track **machine learning models in production** by analyzing:  
+✔ **Data drift** (feature distribution changes over time)  
+✔ **Model performance** (accuracy, precision, recall)  
+✔ **Statistical insights** (visual reports for analysis)  
+✔ **Live data monitoring** (real-time updates)  
 
-### 1️⃣ Clone the Repository
-Fork or clone the repository:
+---
 
-```bash
-git clone git@github.com:evidentlyai/evidently.git
-cd evidently/examples/integrations/streamlit-dashboard
-```
+## **⚙ Tech Stack**
+- **Frontend**: Streamlit  
+- **ML Monitoring**: Evidently AI  
+- **Libraries**: Pandas, NumPy, Matplotlib  
+- **Deployment**: Local or cloud-based  
 
-### 2️⃣ Set Up a Virtual Environment
-Create and activate a virtual environment:
+---
 
-```bash
-python3 -m venv .venv
+## **📂 Project Structure**
+```plaintext
+ml-monitoring-dashboard/
+│── streamlit-app/
+│   ├── app.py               # Main Streamlit dashboard
+│   ├── homes.csv            # Dataset used for analysis
+│   ├── requirements.txt      # Python dependencies
+│── projects/                 # Additional model monitoring projects
+│── .venv/                    # Virtual environment (not pushed to Git)
+│── README.md                 # Project documentation
+🚀 Setup & Installation
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/aditiBansal-7/ml-monitoring-dashboard.git
+cd ml-monitoring-dashboard
+2️⃣ Set Up a Virtual Environment
+bash
+Copy
+Edit
+python -m venv .venv
+source .venv/Scripts/activate  # On Windows
+# OR
 source .venv/bin/activate  # On macOS/Linux
-```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ Set Up Jupyter Notebook (Optional)
-If you plan to use Jupyter notebooks:
-
-```bash
-python -m ipykernel install --user --name=evidently
-jupyter contrib nbextension install --user
-```
-
----
-
-## 📺 Launch Monitoring Dashboards
-
-Navigate to the **Streamlit application** directory:
-
-```bash
+3️⃣ Install Dependencies
+bash
+Copy
+Edit
+pip install -r streamlit-app/requirements.txt
+4️⃣ Run the Dashboard
+bash
+Copy
+Edit
 cd streamlit-app
-```
-
-Run the Streamlit app:
-
-```bash
 streamlit run app.py
-```
+🔗 Open in browser: http://localhost:8501
 
-This command starts a local **Streamlit server**, and the **Monitoring Dashboard** will open in your browser.
+📊 Sample Dashboard Screenshot
 
----
 
-## ▶️ Generate Monitoring Reports with Evidently
 
-### 1️⃣ Run Jupyter Notebook
-Navigate to the **Bike Sharing Project** directory:
-
-```bash
-cd projects/bike-sharing
-```
-
-Launch Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-### 2️⃣ Generate New Reports
-Open the **notebook**:  
-📌 `bicycle_demand_monitoring.ipynb`
-
-Run all cells to:
-✅ Generate model predictions  
-✅ Generate Evidently monitoring reports  
-
-> 📌 All **Evidently reports** (`.html` files) are stored in the `reports/` directory within each project.
-
----
-
-## 📚 Documentation
-- 📖 [Evidently AI Documentation](https://docs.evidentlyai.com/)
-- 📖 [Streamlit Documentation](https://docs.streamlit.io/)
-
----
+![Screenshot 2025-03-15 160236](https://github.com/user-attachments/assets/9f73affb-6d1d-428e-a64e-32b4c452450c)
+![Screenshot 2025-03-15 160236](https://github.com/user-attachments/assets/f98a0fd5-dfa3-431e-98a9-af6d888434f2)
 
