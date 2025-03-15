@@ -22,7 +22,6 @@ This dashboard helps track **machine learning models in production** by analyzin
 ---
 
 ## **📂 Project Structure**
-```plaintext
 ml-monitoring-dashboard/
 │── streamlit-app/
 │   ├── app.py               # Main Streamlit dashboard
@@ -31,7 +30,9 @@ ml-monitoring-dashboard/
 │── projects/                 # Additional model monitoring projects
 │── .venv/                    # Virtual environment (not pushed to Git)
 │── README.md                 # Project documentation
+
 🚀 Setup & Installation
+
 1️⃣ Clone the Repository
 bash
 Copy
