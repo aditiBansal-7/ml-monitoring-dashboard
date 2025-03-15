@@ -1,10 +1,14 @@
-# **📊 ML Monitoring Dashboard**
+Here’s the corrected and properly formatted README with each command in its own code block:
 
+md
+Copy
+Edit
+# 📊 ML Monitoring Dashboard
 An interactive dashboard for monitoring **ML model performance, data drift, and key metrics** using **Streamlit and Evidently AI**.
 
 ---
 
-## **📌 Project Overview**
+## 📌 Project Overview
 This dashboard helps track **machine learning models in production** by analyzing:  
 ✔ **Data drift** (feature distribution changes over time)  
 ✔ **Model performance** (accuracy, precision, recall)  
@@ -13,7 +17,7 @@ This dashboard helps track **machine learning models in production** by analyzin
 
 ---
 
-## **📂 Project Structure**
+## 📂 Project Structure
 ```plaintext
 ml-monitoring-dashboard/
 │── streamlit-app/
@@ -23,43 +27,41 @@ ml-monitoring-dashboard/
 │── projects/                 # Additional model monitoring projects
 │── .venv/                    # Virtual environment (not pushed to Git)
 │── README.md                 # Project documentation
-```
 
-🚀 Setup & Installation**
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
+---
+
+
+## 🚀 Setup & Installation
+
+### **1️⃣ Clone the Repository**
+Run the following commands:
+```bash
 git clone https://github.com/aditiBansal-7/ml-monitoring-dashboard.git
 cd ml-monitoring-dashboard
-```
-```
 2️⃣ Set Up a Virtual Environment
+On Windows:
 bash
 Copy
 Edit
 python -m venv .venv
-source .venv/Scripts/activate  # On Windows
-# OR
-source .venv/bin/activate  # On macOS/Linux
-```
-```
+source .venv/Scripts/activate
+On macOS/Linux:
+bash
+Copy
+Edit
+python -m venv .venv
+source .venv/bin/activate
 3️⃣ Install Dependencies
 bash
 Copy
 Edit
 pip install -r streamlit-app/requirements.txt
-```
-```
 4️⃣ Run the Dashboard
 bash
 Copy
 Edit
 cd streamlit-app
 streamlit run app.py
+🔗 Open in browser: http://localhost:8501
 
-```
-```
 📊 Sample Dashboard Screenshot
-![Screenshot 2025-03-15 160236](https://github.com/user-attachments/assets/b0c6a0e2-a189-4541-9ad5-57128a76351e)
-
