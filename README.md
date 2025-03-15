@@ -66,4 +66,3 @@ streamlit run app.py
 
 ---
 
-This version ensures proper structure, spacing, numbering, and separate code blocks, making it visually clean and readable like your second screenshot. 🚀
