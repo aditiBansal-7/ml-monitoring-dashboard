@@ -10,8 +10,6 @@ This repository provides an example of how to build a **Streamlit dashboard** fo
 - **Evidently AI** and **Streamlit** installed
 - **Jupyter Notebook** (optional for report generation)
 
-> ⚠ **Note:** Streamlit **v1.19.0** does not work with Python **3.9.7**.
-
 ---
 
 ## 👩‍💻 Installation
